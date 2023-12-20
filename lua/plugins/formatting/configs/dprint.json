@@ -1,0 +1,5 @@
+{
+  "typescript": {},
+  "includes": ["**/*.{ts,tsx,js,jsx,mjs,json}"],
+  "excludes": ["**/node_modules", "**/*-lock.json"]
+}
