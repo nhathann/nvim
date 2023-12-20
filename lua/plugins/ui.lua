@@ -73,22 +73,7 @@ return {
   {
     "lewis6991/gitsigns.nvim",
     event = "BufEnter",
-		-- config = require("ui.gitsigns"),
-    config = function()
-      require("gitsigns").setup({
-        signs = {
-          add = { text = "│" },
-          change = { text = "│" },
-        },
-        -- signs = {
-        --   add = { text = '+' },
-        --   change = { text = '~' },
-        --   delete = { text = '_' },
-        --   topdelete = { text = '‾' },
-        --   changedelete = { text = '~' },
-        -- },
-      })
-    end,
+		config = require("configs.ui.gitsigns"),  
   },
 
 	-- Indent blankline
