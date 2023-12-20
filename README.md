@@ -1,1 +1,1 @@
-Custom neovim experience
+custom neovim experience
